@@ -1,10 +1,8 @@
-import { devineLog } from './js/utility/helpers';
-import './style.css';
+import "./style.css";
+import { devineLog } from "./js/utility/helpers";
 
-{
-  const init = () => {
-    devineLog(`Hello world`);
-	};
+devineLog("Hey, ik ben een JS file");
+const arr = [1 , 2,  3];
 
-  init();
-}
+const ES6Stuff = () => devineLog("Ik kan ES6 stuff aan", ...arr);
+ES6Stuff();
